@@ -7,7 +7,6 @@
         zmk,physical-layout = &physical_layout0;
     };
     
-    
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
@@ -47,6 +46,8 @@
     };
 
     &physical_layout0 {
+        compatible = "zmk,physical-layout";
+        display-name = "Default layout"
         transform = <&default_transform>;
     };
 };
