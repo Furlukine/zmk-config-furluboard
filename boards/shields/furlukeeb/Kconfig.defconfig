@@ -1,0 +1,6 @@
+if SHIELD_furluboard
+
+config ZMK_KEYBOARD_NAME
+    default "furluboard"
+
+endif
