@@ -47,7 +47,7 @@
 
     &physical_layout0 {
         compatible = "zmk,physical-layout";
-        display-name = "Default layout"
+        display-name = "Default layout";
         transform = <&default_transform>;
     };
 };
