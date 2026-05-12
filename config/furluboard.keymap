@@ -52,6 +52,7 @@
             then-layer = <3>;
         };
     };
+};
 
 //config for home row mods
 &mt {
@@ -62,6 +63,4 @@
 };
 &mt {
     quick-tap-ms = <150>;
-};
-
 };
