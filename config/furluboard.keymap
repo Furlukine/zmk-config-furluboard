@@ -52,4 +52,16 @@
             then-layer = <3>;
         };
     };
+
+//config for home row mods
+&mt {
+    tapping-term-ms = <200>;
+};
+&mt {
+    flavor = "balanced";
+};
+&mt {
+    quick-tap-ms = <150>;
+};
+
 };
